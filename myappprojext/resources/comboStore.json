@@ -1,0 +1,18 @@
+[
+    {
+		"value"	: "default",
+		"text"	: "请选择"
+    },
+    {
+    	"value"	: "u_name",
+		"text"	: "姓名"
+    },
+    {
+    	"value"	: "u_email",
+		"text"	: "邮箱"
+    },
+    {
+    	"value"	: "u_photo",
+		"text"	: "电话"
+    }
+]

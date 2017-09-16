@@ -1,0 +1,89 @@
+{
+	"expanded": true,
+	"children":[
+		    {
+		        "text": "主页",
+		        "iconCls": "x-fa fa-desktop",
+		        "viewType": "",
+		        "leaf": true
+		    },
+		    {
+		        "text": "订单管理",
+		        "iconCls": "x-fa fa-leanpub",
+		        "viewType":"",
+		        "leaf":"",
+		        "children": [
+		            {
+		                "text": "新增",
+		                "iconCls": "x-fa fa-file-o",
+		                "viewType": "pageblank",
+		                "leaf": true
+		            },
+		
+		            {
+		                "text": "修改",
+		                "iconCls": "x-fa fa-exclamation-triangle",
+		                "viewType": "",
+		                "leaf": true
+		            },
+		            {
+		                "text": "查询",
+		                "iconCls": "x-fa fa-times-circle",
+		                "viewType": "treepanels",
+		
+		                "routeId": "mainlist",
+		                "leaf": true
+		            },
+		            {
+		                "text": "删除",
+		                "iconCls": "x-fa fa-lock",
+		                "viewType": "lockscreen",
+		                "leaf": true
+		            }
+		        ]
+		    }
+		    ,{
+		    	"text": "科室",
+		        "iconCls": "x-fa fa-desktop",
+		        "viewType": "keshipanal",
+		        "leaf": true
+		    },{
+		        "text": "权限管理",
+		        "iconCls": "x-fa fa-leanpub",
+		        "viewType":"",
+		        "leaf":"",
+		        "children": [
+		            {
+		                "text": "用户管理",
+		                "iconCls": "x-fa fa-file-o",
+		                "viewType": "pageblank",
+		                "leaf": true
+		            },
+		            {
+		                "text": "角色管理",
+		                "iconCls": "x-fa fa-exclamation-triangle",
+		                "viewType": "sys_mainpanal",
+		                "leaf": true
+		            },{
+				    	"text": "新增角色",
+				        "iconCls": "x-fa fa-fonticons",
+				        "viewType": "sys_ruleAdd",
+				        "leaf": true
+		    		},
+		            {
+		                "text": "权限管理",
+		                "iconCls": "x-fa fa-times-circle",
+		                "viewType": "auth_Main",
+		                "leaf": true
+		            }
+		        ]
+		    },{
+		    	"text": "注销",
+		        "iconCls": "x-fa fa-desktop",
+		        "viewType": "login",
+		        "leaf": true
+		    }
+		]
+
+}
+
